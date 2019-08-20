@@ -1,0 +1,44 @@
+body{
+	background-color: #F94E58;
+}
+
+
+img {
+  /*border: 1px solid #ddd;*/
+  /*border-radius: 4px;*/
+  width: 150px;
+}
+.statement{
+margin: 0 auto;
+width: 500px;
+font-size: 20px;
+}
+.name{
+	margin: 0 auto;
+	width: 105px;
+	font-size: 30px
+
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
