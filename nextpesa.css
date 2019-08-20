@@ -12,7 +12,11 @@ img {
 .statement{
 margin: 0 auto;
 width: 500px;
-font-size: 20px;
+font-size: 24px;
+font-weight: 300;
+line-height: 1.3em;
+text-align: left;
+color: #4d4c4c;
 }
 .name{
 	margin: 0 auto;
@@ -28,6 +32,9 @@ font-size: 20px;
   width: 50%;
   padding: 10px;
   height: 300px;
+  color: #b3afaf;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
 .row:after {
